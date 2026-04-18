@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Custom Packages/">
+  <Project Path="UsrClientsFreedomUI\Files\UsrClientsFreedomUI.csproj" />
+  <Project Path="UsrLotsFreedomUI\Files\UsrLotsFreedomUI.csproj" />
+  <Project Path="UsrRealtyFreedomUI\Files\UsrRealtyFreedomUI.csproj" />
+  </Folder>
+</Solution>
