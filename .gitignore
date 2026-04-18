@@ -38,4 +38,4 @@ bld/
 [Ll]ogs/
 
 Directory.Build.props
-Directory.Build.targets
+Directory.Build.targets 
