@@ -2,13 +2,13 @@
   "Descriptor": {
     "UId": "304caf06-833f-4644-8224-952eb01ee515",
     "Name": "UsrLotsResultTypeFreedomUI",
-    "ModifiedOnUtc": "\/Date(1776425033000)\/",
+    "ModifiedOnUtc": "\/Date(1776514442000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Тип результату (FreedomUI)",
+    "Caption": "Тип лота (FreedomUI)",
     "DependsOn": []
   }
 }

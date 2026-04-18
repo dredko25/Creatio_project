@@ -10,6 +10,55 @@
     },
     "Columns": [
       {
+        "ColumnUId": "d57c3c34-e293-4aed-bff6-91dc90408958",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SectionModuleSchemaUId",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "6d827ba7-a622-47cc-8f11-b40b91c7441a",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Image16",
+        "DataTypeValueUId": "fa6e6e49-b996-475e-a77e-73904e4c5a88"
+      },
+      {
+        "ColumnUId": "e6243d2b-cc8f-4b2d-8646-36bac9fb48e9",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "SysModuleVisa",
+        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
+      },
+      {
+        "ColumnUId": "a0fd39b2-b680-4515-ac3c-72322db4f1b8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "HasActions",
+        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
+      },
+      {
+        "ColumnUId": "48b260f5-5aad-608c-73a9-2b835ef697f4",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
+      },
+      {
+        "ColumnUId": "48ed5be5-6dcd-44ba-6294-a29c8daef880",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "IconBackground",
+        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
+      },
+      {
+        "ColumnUId": "74a0895a-c418-9012-441c-0c888293e434",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "MobileSectionSchemaUId",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
         "ColumnUId": "7b904e78-84bf-408c-a7a1-1287e66837d3",
         "IsForceUpdate": false,
         "IsKey": false,
@@ -155,55 +204,6 @@
         "IsKey": false,
         "ColumnName": "Type",
         "DataTypeValueUId": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
-      },
-      {
-        "ColumnUId": "d57c3c34-e293-4aed-bff6-91dc90408958",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "SectionModuleSchemaUId",
-        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
-      },
-      {
-        "ColumnUId": "6d827ba7-a622-47cc-8f11-b40b91c7441a",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Image16",
-        "DataTypeValueUId": "fa6e6e49-b996-475e-a77e-73904e4c5a88"
-      },
-      {
-        "ColumnUId": "e6243d2b-cc8f-4b2d-8646-36bac9fb48e9",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "SysModuleVisa",
-        "DataTypeValueUId": "b295071f-7ea9-4e62-8d1a-919bf3732ff2"
-      },
-      {
-        "ColumnUId": "a0fd39b2-b680-4515-ac3c-72322db4f1b8",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "HasActions",
-        "DataTypeValueUId": "90b65bf8-0ffc-4141-8779-2420877af907"
-      },
-      {
-        "ColumnUId": "48b260f5-5aad-608c-73a9-2b835ef697f4",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "Description",
-        "DataTypeValueUId": "c0f04627-4620-4bc0-84e5-9419dc8516b1"
-      },
-      {
-        "ColumnUId": "48ed5be5-6dcd-44ba-6294-a29c8daef880",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "IconBackground",
-        "DataTypeValueUId": "325a73b8-0f47-44a0-8412-7606f78003ac"
-      },
-      {
-        "ColumnUId": "74a0895a-c418-9012-441c-0c888293e434",
-        "IsForceUpdate": false,
-        "IsKey": false,
-        "ColumnName": "MobileSectionSchemaUId",
-        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
       }
     ]
   }

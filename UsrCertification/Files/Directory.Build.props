@@ -8,5 +8,7 @@
 		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs')" />
 		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs')" />
 		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrRealtyFreedomUI/UsrRealtyFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrRealtyTypeFreedomUI/UsrRealtyTypeFreedomUI.cs')" />
 	</ItemGroup>
 </Project>

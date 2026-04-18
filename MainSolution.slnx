@@ -1,7 +1,5 @@
 <Solution>
   <Folder Name="/Custom Packages/">
-  <Project Path="UsrClientsFreedomUI\Files\UsrClientsFreedomUI.csproj" />
-  <Project Path="UsrLotsFreedomUI\Files\UsrLotsFreedomUI.csproj" />
-  <Project Path="UsrRealtyFreedomUI\Files\UsrRealtyFreedomUI.csproj" />
+  <Project Path="UsrCertification\Files\UsrCertification.csproj" />
   </Folder>
 </Solution>
