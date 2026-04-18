@@ -1,9 +1,0 @@
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\Bin\UsrClientsFreedomUI.dll
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\Bin\UsrClientsFreedomUI.pdb
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.csproj.AssemblyReference.cache
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.GeneratedMSBuildEditorConfig.editorconfig
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.AssemblyInfoInputs.cache
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.AssemblyInfo.cs
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.csproj.CoreCompileInputs.cache
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.dll
-D:\studio_8.3.1\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\UsrClientsFreedomUI\Files\obj\Release\UsrClientsFreedomUI.pdb

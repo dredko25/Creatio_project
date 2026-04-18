@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrClientsFreedomUI/UsrClientsFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrClientsFreedomUI/UsrClientsFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrClientsTypeFreedomUI/UsrClientsTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrClientsTypeFreedomUI/UsrClientsTypeFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs')" />
+	</ItemGroup>
+</Project>

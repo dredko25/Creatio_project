@@ -1,0 +1,11 @@
+= MetaData.Schema.UId "1f0f4a4d-5115-4278-a2be-8300f59f9d27"
+= MetaData.Schema.A2 "UsrLotsFreedomUI_ListPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+= MetaData.Schema.B6 "a3598517-c733-4a29-a3c0-784aa6aca58c"
+= MetaData.Schema.HD1 "b7b898d0-8c77-4953-c097-23fa6800da02"
++ MetaData.Schema.HD2 "null"
++ MetaData.Schema.HD9 "null"
++ MetaData.Schema.HD10 "null"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false

@@ -568,7 +568,16 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
-	<ItemGroup Label="Entity Files"></ItemGroup>
+	<ItemGroup Label="Entity Files">
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrClientsFreedomUI/UsrClientsFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrClientsFreedomUI/UsrClientsFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrClientsTypeFreedomUI/UsrClientsTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrClientsTypeFreedomUI/UsrClientsTypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrCertification/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs')" />
+	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
 		<Message Importance="High" Text="*********** Project [$(MSBuildProjectFile)] TargetFramework [$(TargetFramework)] CoreTargetFramework [$(CoreTargetFramework)]" />
