@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "8146831f-9e9a-4e09-ac13-2f7902dfc272",
+    "Name": "UsrLotsFreedomUIRelatedPage",
+    "ModifiedOnUtc": "\/Date(1776415148000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Лоти (FreedomUI) (Page settings)",
+    "DependsOn": []
+  }
+}

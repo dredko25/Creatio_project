@@ -1,0 +1,35 @@
+﻿{
+  "Descriptor": {
+    "UId": "118e682c-81b1-ffa5-7a7c-449178fd7d9b",
+    "Name": "UsrLotsResultTypeFreedomUI_all",
+    "ModifiedOnUtc": "\/Date(1776425148000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "304caf06-833f-4644-8224-952eb01ee515",
+      "Name": "UsrLotsResultTypeFreedomUI"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "736c30a7-c0ec-4fa9-b034-2552b319b633",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      },
+      {
+        "ColumnUId": "9e53fd7c-dde4-4502-a64c-b9e34148108b",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Description",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

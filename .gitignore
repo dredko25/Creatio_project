@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+
+.vs
+Release
+Debug
+obj
+[Bb]in
+
+!UsrClientsFreedomUI/
+!UsrClientsFreedomUI/**
+!UsrLotsFreedomUI/
+!UsrLotsFreedomUI/**
+!UsrRealtyFreedomUI/
+!UsrRealtyFreedomUI/**

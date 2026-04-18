@@ -1,0 +1,35 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "a5d053ba-eda7-4cbd-a0f9-4d6788b5672a",
+      "A2": "UsrLotsVisitFreedomUIRelatedPage",
+      "A5": "ba7dd138-1fef-43ac-bbcd-0fbfec4e25f9",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "15932324-9a27-4eb7-969c-f1bee63feaa2",
+      "B8": "8.3.1.4498",
+      "AD1": "4887a055-fc61-4e49-a61e-7cede053b7a0",
+      "AD2": "EntitySchemaManager",
+      "AD3": "RelatedPage",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+  "Pages": [
+    {
+      "UId": "0a7603ec-b6a3-23da-0f85-44c4e5319d00",
+      "PageSchemaUId": "f28c71aa-9588-42eb-b5af-71566dc6d638",
+      "IsDefault": true,
+      "IsSspDefault": false,
+      "Actions": {
+        "Add": false
+      },
+      "Role": "a29a3ba5-4b0d-de11-9a51-005056c00008",
+      "TypeColumnValue": null
+    }
+  ],
+  "TypeColumnUId": null
+}
+    }
+  }
+}

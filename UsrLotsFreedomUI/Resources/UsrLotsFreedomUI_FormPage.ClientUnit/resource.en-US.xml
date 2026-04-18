@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Лоти (FreedomUI) form page" />
+			<Item Name="LocalizableStrings.addRecord_054jha0_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_16b3w3a_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_fn9dye2_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_g9egkvy_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_la3xkr0_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_luecigk_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ExpansionPanel_hke6y0b_title.Value" Value="Перегляди лота (FreedomUI)" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_fld4wxw_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_d3dla2l_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_wczsb3o_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_urogam9_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_ksd47y6_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_g2y45br_caption.Value" Value="Actions" />
+		</Items>
+	</Group>
+</Resources>

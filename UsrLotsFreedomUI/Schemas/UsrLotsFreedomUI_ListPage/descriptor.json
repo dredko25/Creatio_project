@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1f0f4a4d-5115-4278-a2be-8300f59f9d27",
+    "Name": "UsrLotsFreedomUI_ListPage",
+    "ModifiedOnUtc": "\/Date(1776415148000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Лоти (FreedomUI) list page",
+    "DependsOn": []
+  }
+}

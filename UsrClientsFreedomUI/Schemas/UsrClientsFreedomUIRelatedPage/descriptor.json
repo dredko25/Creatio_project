@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "505f9a03-69c5-4d76-9e1f-d92731c8cda2",
+    "Name": "UsrClientsFreedomUIRelatedPage",
+    "ModifiedOnUtc": "\/Date(1776413189000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Клієнти (FreedomUI) (Page settings)",
+    "DependsOn": []
+  }
+}

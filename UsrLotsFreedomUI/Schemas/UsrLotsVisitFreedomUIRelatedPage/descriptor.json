@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "a5d053ba-eda7-4cbd-a0f9-4d6788b5672a",
+    "Name": "UsrLotsVisitFreedomUIRelatedPage",
+    "ModifiedOnUtc": "\/Date(1776426138000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Перегляди лота (FreedomUI) (Page settings)",
+    "DependsOn": []
+  }
+}

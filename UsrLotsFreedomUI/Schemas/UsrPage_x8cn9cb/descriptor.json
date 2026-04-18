@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f28c71aa-9588-42eb-b5af-71566dc6d638",
+    "Name": "UsrPage_x8cn9cb",
+    "ModifiedOnUtc": "\/Date(1776426035000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Перегляди лота (FreedomUI) modal page",
+    "DependsOn": []
+  }
+}

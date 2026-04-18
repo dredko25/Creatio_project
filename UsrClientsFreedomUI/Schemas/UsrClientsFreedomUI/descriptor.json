@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "68fab753-0374-4b3a-b75d-d4f0b149dd98",
+    "Name": "UsrClientsFreedomUI",
+    "ModifiedOnUtc": "\/Date(1776414484000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Клієнти (FreedomUI)",
+    "DependsOn": []
+  }
+}

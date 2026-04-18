@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "dbfa510c-85e1-4e06-9c69-c60c78ab2374",
+    "Name": "UsrClientsFreedomUI_ListPage",
+    "ModifiedOnUtc": "\/Date(1776413189000)\/",
+    "Parent": {
+      "UId": "b7b898d0-8c77-4953-c097-23fa6800da02",
+      "Name": "ListPageV3Template"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Клієнти (FreedomUI) list page",
+    "DependsOn": []
+  }
+}

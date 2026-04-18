@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f4b11d20-1e75-449c-93ee-37b6c62645e2",
+    "Name": "UsrLotsFreedomUI",
+    "ModifiedOnUtc": "\/Date(1776438259000)\/",
+    "Parent": {
+      "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
+      "Name": "BaseEntity"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Лоти (FreedomUI)",
+    "DependsOn": []
+  }
+}

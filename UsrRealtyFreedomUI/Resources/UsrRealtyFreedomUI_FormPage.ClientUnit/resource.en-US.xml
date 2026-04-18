@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Нерухомість (FreedomUI) form page" />
+			<Item Name="LocalizableStrings.addRecord_j0ld06l_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_rus2qf0_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.ExpansionPanel_3qtpihp_title.Value" Value="Перегляди лота (FreedomUI)" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_v1mxlea_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_dfm8xlt_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_egptps1_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_ktsi4a2_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_c32e8dj_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_4j5kw3m_caption.Value" Value="Actions" />
+		</Items>
+	</Group>
+</Resources>

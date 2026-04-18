@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "1e15cb55-caef-439a-af74-a2b8da3983a5",
+    "Name": "UsrClientsFreedomUI_Detail",
+    "ModifiedOnUtc": "\/Date(1776413189000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Клієнти (FreedomUI) detail",
+    "DependsOn": []
+  }
+}

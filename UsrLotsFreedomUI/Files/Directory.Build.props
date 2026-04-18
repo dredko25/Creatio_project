@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsFreedomUI/UsrLotsFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsResultTypeFreedomUI/UsrLotsResultTypeFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsStateFreedomUI/UsrLotsStateFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsStatusFreedomUI/UsrLotsStatusFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsTypeFreedomUI/UsrLotsTypeFreedomUI.cs')" />
+		<Compile Include="$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs" Condition="Exists('$(PkgPath)/UsrLotsFreedomUI/Schemas/UsrLotsVisitFreedomUI/UsrLotsVisitFreedomUI.cs')" />
+	</ItemGroup>
+</Project>

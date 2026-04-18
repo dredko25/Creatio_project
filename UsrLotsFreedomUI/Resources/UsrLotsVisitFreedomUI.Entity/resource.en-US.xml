@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Перегляди лота (FreedomUI)" />
+			<Item Name="Columns.UsrClient.Caption" Value="Клієнт" />
+			<Item Name="Columns.UsrClientComment.Caption" Value="Коментар клієнта" />
+			<Item Name="Columns.UsrLotsRealty.Caption" Value="Нерухомість" />
+			<Item Name="Columns.UsrParentLots.Caption" Value="Батьківський лот" />
+			<Item Name="Columns.UsrRealtorsComment.Caption" Value="Коментар рієлтора" />
+			<Item Name="Columns.UsrResponsibleManager.Caption" Value="Відповідальний" />
+			<Item Name="Columns.UsrResult.Caption" Value="Результат" />
+			<Item Name="Columns.UsrState.Caption" Value="Стан" />
+			<Item Name="Columns.UsrVisitDateTime.Caption" Value="Дата" />
+		</Items>
+	</Group>
+</Resources>
