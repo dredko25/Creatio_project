@@ -3,6 +3,8 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Нерухомість (FreedomUI) list page" />
+			<Item Name="Parameters.0c5048c0-3527-44b7-0a55-14a99c1f5ed3.Caption" Value="Дата останнього перегляду" />
+			<Item Name="Parameters.effab131-118d-d3aa-3da4-6abf5d16c224.Caption" Value="Кількість успішних угод" />
 		</Items>
 	</Group>
 </Resources>

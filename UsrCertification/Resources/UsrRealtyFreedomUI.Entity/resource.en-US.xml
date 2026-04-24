@@ -3,8 +3,10 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Нерухомість (FreedomUI)" />
+			<Item Name="Columns.UsrLastDate.Caption" Value="Дата останнього перегляду" />
 			<Item Name="Columns.UsrManager.Caption" Value="Відповідальний" />
 			<Item Name="Columns.UsrName.Caption" Value="Назва" />
+			<Item Name="Columns.UsrNumberOfSuccessfulAgreement.Caption" Value="Кількість успішних угод" />
 			<Item Name="Columns.UsrRealtyAddress.Caption" Value="Адреса" />
 			<Item Name="Columns.UsrRealtyArea.Caption" Value="Площа" />
 			<Item Name="Columns.UsrRealtyDescription.Caption" Value="Опис" />

@@ -152,6 +152,82 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 			},
 			{
 				"operation": "insert",
+				"name": "GridContainer_9wbk61x",
+				"values": {
+					"type": "crt.GridContainer",
+					"columns": [
+						"minmax(32px, 1fr)"
+					],
+					"rows": "minmax(max-content, 32px)",
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"items": [],
+					"fitContent": true,
+					"padding": {
+						"top": "medium",
+						"right": "large",
+						"bottom": "medium",
+						"left": "large"
+					},
+					"color": "primary",
+					"borderRadius": "medium",
+					"visible": true,
+					"alignItems": "stretch"
+				},
+				"parentName": "SideContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "UsrLastDate",
+				"values": {
+					"type": "crt.DateTimePicker",
+					"label": "$Resources.Strings.PDS_UsrLastDate_36xvdwd",
+					"placeholder": "",
+					"readonly": true,
+					"labelPosition": "auto",
+					"tooltip": "",
+					"control": "$PDS_UsrLastDate_36xvdwd",
+					"pickerType": "datetime",
+					"visible": true,
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_9wbk61x",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "UsrNumberOfSuccessfulAgreement",
+				"values": {
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrNumberOfSuccessfulAgreement_n8myhnz",
+					"control": "$PDS_UsrNumberOfSuccessfulAgreement_n8myhnz",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": "",
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					}
+				},
+				"parentName": "GridContainer_9wbk61x",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "UsrRealtyAddress",
 				"values": {
 					"layoutConfig": {
@@ -544,57 +620,57 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 					"primaryColumnName": "GridDetail_hjnaus3DS_Id",
 					"columns": [
 						{
-							"id": "0e2ffb30-03ff-92a1-5504-d30c52d03034",
+							"id": "7fb2e74d-2466-834e-5e63-decede692de9",
 							"code": "GridDetail_hjnaus3DS_UsrLotsRealty",
 							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrLotsRealty)#",
 							"dataValueType": 10
 						},
 						{
-							"id": "6a7441aa-8150-412a-7d48-477d8d7f35df",
-							"code": "GridDetail_hjnaus3DS_UsrClientComment",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrClientComment)#",
-							"dataValueType": 28
-						},
-						{
-							"id": "27563e7d-7887-72ba-ba16-20a071a93d86",
-							"code": "GridDetail_hjnaus3DS_UsrVisitDateTime",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrVisitDateTime)#",
-							"dataValueType": 7
-						},
-						{
-							"id": "1fa9a724-f2a9-ca48-5d3a-29fe3c3777ec",
-							"code": "GridDetail_hjnaus3DS_UsrResponsibleManager",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrResponsibleManager)#",
+							"id": "dd9c5f7b-0940-0396-56b6-03a465ab9371",
+							"code": "GridDetail_hjnaus3DS_UsrState",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrState)#",
 							"dataValueType": 10
 						},
 						{
-							"id": "0ddc7fae-0d89-f55a-5e9b-d49babb376ed",
-							"code": "GridDetail_hjnaus3DS_UsrClient",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrClient)#",
-							"dataValueType": 10
-						},
-						{
-							"id": "a4116067-de20-331f-4ec0-4e3d6c77c0d0",
-							"code": "GridDetail_hjnaus3DS_UsrClientComment",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrClientComment)#",
-							"dataValueType": 28
-						},
-						{
-							"id": "865a08da-829a-2a92-0c8d-7abccd14bfa5",
-							"code": "GridDetail_hjnaus3DS_UsrRealtorsComment",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrRealtorsComment)#",
-							"dataValueType": 28
-						},
-						{
-							"id": "5ae90379-5ca3-2a98-098d-23821473ea93",
+							"id": "64f5fe7e-77ec-5a4c-2408-0e77963695ab",
 							"code": "GridDetail_hjnaus3DS_UsrResult",
 							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrResult)#",
 							"dataValueType": 10
 						},
 						{
-							"id": "2d945d4f-05fe-7d66-3667-66104ad09a39",
-							"code": "GridDetail_hjnaus3DS_UsrState",
-							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrState)#",
+							"id": "5a175e1a-b104-06e2-6074-62f6d29124ee",
+							"code": "GridDetail_hjnaus3DS_UsrVisitDateTime",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrVisitDateTime)#",
+							"dataValueType": 7
+						},
+						{
+							"id": "5af16242-470d-148c-f822-652938a98122",
+							"code": "GridDetail_hjnaus3DS_UsrResponsibleManager",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrResponsibleManager)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "556b01cf-d41e-0ade-2a24-012b5bd378f4",
+							"code": "GridDetail_hjnaus3DS_UsrClient",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrClient)#",
+							"dataValueType": 10
+						},
+						{
+							"id": "88d5d94f-fd13-9c71-bc92-faa93526c867",
+							"code": "GridDetail_hjnaus3DS_UsrClientComment",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrClientComment)#",
+							"dataValueType": 28
+						},
+						{
+							"id": "58170834-a756-e744-a89f-27bb6416d21f",
+							"code": "GridDetail_hjnaus3DS_UsrRealtorsComment",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrRealtorsComment)#",
+							"dataValueType": 28
+						},
+						{
+							"id": "b14b38b6-654c-f7f2-e4d1-efdcd1260d90",
+							"code": "GridDetail_hjnaus3DS_UsrParentLots",
+							"caption": "#ResourceString(GridDetail_hjnaus3DS_UsrParentLots)#",
 							"dataValueType": 10
 						}
 					],
@@ -794,7 +870,7 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 								"default": [
 									{
 										"direction": "asc",
-										"columnName": "UsrVisitDateTime"
+										"columnName": "UsrState"
 									}
 								]
 							}
@@ -806,9 +882,14 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 										"path": "GridDetail_hjnaus3DS.UsrLotsRealty"
 									}
 								},
-								"GridDetail_hjnaus3DS_UsrClientComment": {
+								"GridDetail_hjnaus3DS_UsrState": {
 									"modelConfig": {
-										"path": "GridDetail_hjnaus3DS.UsrClientComment"
+										"path": "GridDetail_hjnaus3DS.UsrState"
+									}
+								},
+								"GridDetail_hjnaus3DS_UsrResult": {
+									"modelConfig": {
+										"path": "GridDetail_hjnaus3DS.UsrResult"
 									}
 								},
 								"GridDetail_hjnaus3DS_UsrVisitDateTime": {
@@ -826,19 +907,19 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 										"path": "GridDetail_hjnaus3DS.UsrClient"
 									}
 								},
+								"GridDetail_hjnaus3DS_UsrClientComment": {
+									"modelConfig": {
+										"path": "GridDetail_hjnaus3DS.UsrClientComment"
+									}
+								},
 								"GridDetail_hjnaus3DS_UsrRealtorsComment": {
 									"modelConfig": {
 										"path": "GridDetail_hjnaus3DS.UsrRealtorsComment"
 									}
 								},
-								"GridDetail_hjnaus3DS_UsrResult": {
+								"GridDetail_hjnaus3DS_UsrParentLots": {
 									"modelConfig": {
-										"path": "GridDetail_hjnaus3DS.UsrResult"
-									}
-								},
-								"GridDetail_hjnaus3DS_UsrState": {
-									"modelConfig": {
-										"path": "GridDetail_hjnaus3DS.UsrState"
+										"path": "GridDetail_hjnaus3DS.UsrParentLots"
 									}
 								},
 								"GridDetail_hjnaus3DS_Id": {
@@ -851,6 +932,16 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 					},
 					"GridDetail_hjnaus3_PredefinedFilter": {
 						"value": null
+					},
+					"PDS_UsrLastDate_36xvdwd": {
+						"modelConfig": {
+							"path": "PDS.UsrLastDate"
+						}
+					},
+					"PDS_UsrNumberOfSuccessfulAgreement_n8myhnz": {
+						"modelConfig": {
+							"path": "PDS.UsrNumberOfSuccessfulAgreement"
+						}
 					}
 				}
 			},
@@ -904,8 +995,11 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 								"UsrLotsRealty": {
 									"path": "UsrLotsRealty"
 								},
-								"UsrClientComment": {
-									"path": "UsrClientComment"
+								"UsrState": {
+									"path": "UsrState"
+								},
+								"UsrResult": {
+									"path": "UsrResult"
 								},
 								"UsrVisitDateTime": {
 									"path": "UsrVisitDateTime"
@@ -916,14 +1010,14 @@ define("UsrRealtyFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, functi
 								"UsrClient": {
 									"path": "UsrClient"
 								},
+								"UsrClientComment": {
+									"path": "UsrClientComment"
+								},
 								"UsrRealtorsComment": {
 									"path": "UsrRealtorsComment"
 								},
-								"UsrResult": {
-									"path": "UsrResult"
-								},
-								"UsrState": {
-									"path": "UsrState"
+								"UsrParentLots": {
+									"path": "UsrParentLots"
 								}
 							}
 						}

@@ -3,7 +3,11 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Перегляди лота (FreedomUI) modal page" />
+			<Item Name="LocalizableStrings.addRecord_7dtctge_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_7vp4xpn_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_dxysspv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_inwa04v_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_r3l20co_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ux453s7_caption.Value" Value="Add new" />
 		</Items>
 	</Group>

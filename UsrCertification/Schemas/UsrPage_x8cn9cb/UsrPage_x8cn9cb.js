@@ -1,6 +1,90 @@
-define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
+			{
+				"operation": "insert",
+				"name": "ComboBox_h92q4cf",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrLotsVisitFreedomUIDS_UsrParentLots_dvou38h",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "above",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$UsrLotsVisitFreedomUIDS_UsrParentLots_dvou38h"
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_7dtctge",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_7dtctge_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_h92q4cf",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_aon3gi6",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrLotsVisitFreedomUIDS_UsrLotsRealty_sv1fepu",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "above",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$UsrLotsVisitFreedomUIDS_UsrLotsRealty_sv1fepu"
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_r3l20co",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_r3l20co_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_aon3gi6",
+				"propertyName": "listActions",
+				"index": 0
+			},
 			{
 				"operation": "insert",
 				"name": "DateTimePicker_wcajmrr",
@@ -8,7 +92,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 1,
+						"row": 3,
 						"rowSpan": 1
 					},
 					"type": "crt.DateTimePicker",
@@ -22,6 +106,48 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_ujdg7pf",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 4,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrLotsVisitFreedomUIDS_UsrState_cf6lzml",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "above",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$UsrLotsVisitFreedomUIDS_UsrState_cf6lzml"
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_inwa04v",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_inwa04v_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_ujdg7pf",
+				"propertyName": "listActions",
 				"index": 0
 			},
 			{
@@ -31,7 +157,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 2,
+						"row": 5,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -47,7 +173,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -73,7 +199,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 3,
+						"row": 6,
 						"rowSpan": 1
 					},
 					"type": "crt.ComboBox",
@@ -89,7 +215,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -115,7 +241,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 4,
+						"row": 7,
 						"rowSpan": 1
 					},
 					"type": "crt.Input",
@@ -129,7 +255,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 3
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -138,7 +264,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 5,
+						"row": 8,
 						"rowSpan": 1
 					},
 					"type": "crt.Input",
@@ -152,7 +278,49 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				},
 				"parentName": "MainContainer",
 				"propertyName": "items",
-				"index": 4
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "ComboBox_6otds3i",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 9,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrLotsVisitFreedomUIDS_UsrResult_6mq5p08",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "above",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$UsrLotsVisitFreedomUIDS_UsrResult_6mq5p08"
+				},
+				"parentName": "MainContainer",
+				"propertyName": "items",
+				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_7vp4xpn",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_7vp4xpn_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_6otds3i",
+				"propertyName": "listActions",
+				"index": 0
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -162,6 +330,7 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 					"attributes"
 				],
 				"values": {
+					
 					"UsrLotsVisitFreedomUIDS_UsrVisitDateTime_x5qjgkk": {
 						"modelConfig": {
 							"path": "UsrLotsVisitFreedomUIDS.UsrVisitDateTime"
@@ -212,6 +381,78 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 						"modelConfig": {
 							"path": "UsrLotsVisitFreedomUIDS.UsrRealtorsComment"
 						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrParentLots_dvou38h": {
+						"modelConfig": {
+							"path": "UsrLotsVisitFreedomUIDS.UsrParentLots"
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrParentLots_dvou38h_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "UsrName",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrLotsRealty_sv1fepu": {
+						"modelConfig": {
+							"path": "UsrLotsVisitFreedomUIDS.UsrLotsRealty"
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrLotsRealty_sv1fepu_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "UsrName",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrResult_6mq5p08": {
+						"modelConfig": {
+							"path": "UsrLotsVisitFreedomUIDS.UsrResult"
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrResult_6mq5p08_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrState_cf6lzml": {
+						"modelConfig": {
+							"path": "UsrLotsVisitFreedomUIDS.UsrState"
+						}
+					},
+					"UsrLotsVisitFreedomUIDS_UsrState_cf6lzml_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
+						}
 					}
 				}
 			}
@@ -246,7 +487,86 @@ define("UsrPage_x8cn9cb", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "crt.SaveRecordRequest",
+		        handler: async (request, next) => {
+		            const context = request.$context;
+
+					const sysSettingsService = new sdk.SysSettingsService();
+		            const UsrMinTimeBetweenVisits = await sysSettingsService.getByCode('UsrMinTimeBetweenVisits');
+					const minBreakMinutes = UsrMinTimeBetweenVisits.value;
+					
+		            const realtyIdObject = await context.UsrLotsVisitFreedomUIDS_UsrLotsRealty_sv1fepu;
+					const realtyId = realtyIdObject.value;
+		            const visitDateTime = await context.UsrLotsVisitFreedomUIDS_UsrVisitDateTime_x5qjgkk;
+		            const currentVisitIdObject = await context.UsrLotsVisitFreedomUIDS_UsrParentLots_dvou38h;
+					const currentVisitId = currentVisitIdObject.value;
+		            
+		            var esq = this.Ext.create("Terrasoft.EntitySchemaQuery", {
+					    rootSchemaName: "UsrLotsVisitFreedomUI"
+					});
+					esq.addColumn("UsrVisitDateTime");
+
+					esq.addColumn("UsrLotsRealty");
+
+					const realtyFilter = esq.createColumnFilterWithParameter(Terrasoft.ComparisonType.EQUAL, "UsrLotsRealty", realtyId);
+					esq.filters.addItem(realtyFilter);
+
+					const currentVisitDate = new Date(visitDateTime);
+					
+					const result = await new Promise((resolve) => {
+						esq.getEntityCollection(resolve);
+					});
+
+					console.log("realtyId:", realtyId);
+					console.log("currentVisitDate:", currentVisitDate);
+					console.log("currentVisitId:", currentVisitId);
+					
+					console.log(result.collection.collection);
+
+					if (result.success && result.collection && result.collection.getCount() > 0) {
+						const dates = [];
+						result.collection.each((item) => {
+							const UsrVisitDateTime = item.get("UsrVisitDateTime");
+							if (UsrVisitDateTime) {
+								dates.push(new Date(UsrVisitDateTime));
+							}
+						});
+						
+						dates.sort((a, b) => b - a);
+
+						const lastVisitDate = dates.find(d => d < currentVisitDate);
+						console.log("lastVisitDate:", lastVisitDate);
+						const diffMs = currentVisitDate.getTime() - new Date(lastVisitDate).getTime();
+						const diffMinutes = Math.floor(diffMs / (1000 * 60));
+						console.log("diffMinutes:", diffMinutes, "minBreakMinutes:", minBreakMinutes);
+						
+						if (diffMinutes < minBreakMinutes) {
+							/* Create an instance of the dialog service from "@creatio-devkit/common." */
+							const dialogService = new sdk.DialogService();
+							const result = await dialogService.open({
+								message: `Перерва між переглядами має бути не менше ${minBreakMinutes} хв. Поточний інтервал: ${diffMinutes} хв.`,
+								actions: [
+									{
+										key: 'Yes',
+										config: {
+											color: 'primary',
+											caption: 'Close',
+										}
+									},
+								]
+							});
+
+							return false;
+						}
+					}
+
+					return next?.handle(request);
+				}
+			}
+			
+		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
 		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
 	};

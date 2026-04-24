@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "4887a055-fc61-4e49-a61e-7cede053b7a0",
     "Name": "UsrLotsVisitFreedomUI",
-    "ModifiedOnUtc": "\/Date(1776441261000)\/",
+    "ModifiedOnUtc": "\/Date(1776786228000)\/",
     "Parent": {
       "UId": "1bab9dcf-17d5-49f8-9536-8e0064f1dce0",
       "Name": "BaseEntity"
     },
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Перегляди лота (FreedomUI)",
-    "DependsOn": []
+    "Caption": "Перегляди лота (FreedomUI)"
   }
 }

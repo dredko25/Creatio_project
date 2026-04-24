@@ -1,4 +1,4 @@
-define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -172,6 +172,29 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 			},
 			{
 				"operation": "insert",
+				"name": "CommissionPercent",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrLotsTypeUsrCommissionPercent_zuxu53p",
+					"control": "$PDS_UsrLotsTypeUsrCommissionPercent_zuxu53p",
+					"readonly": true,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": "",
+					"visible": false
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
 				"name": "UsrLotsOwner",
 				"values": {
 					"layoutConfig": {
@@ -206,7 +229,7 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"code": "addRecord",
 					"type": "crt.ComboboxSearchTextAction",
 					"icon": "combobox-add-new",
-					"caption": "#ResourceString(addRecord_16b3w3a_caption)#",
+					"caption": "#ResourceStringhe(addRecord_16b3w3a_caption)#",
 					"clicked": {
 						"request": "crt.CreateRecordFromLookupRequest",
 						"params": {}
@@ -343,10 +366,11 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"type": "crt.NumberInput",
 					"label": "$Resources.Strings.PDS_UsrLotsRealtorsCommission_yak26ra",
 					"control": "$PDS_UsrLotsRealtorsCommission_yak26ra",
-					"readonly": false,
+					"readonly": true,
 					"placeholder": "",
 					"labelPosition": "auto",
-					"tooltip": ""
+					"tooltip": "",
+					"visible": true
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -811,6 +835,7 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"attributes"
 				],
 				"values": {
+					"UsrMaxRealtorCommission": {},
 					"UsrName": {
 						"modelConfig": {
 							"path": "PDS.UsrName"
@@ -901,6 +926,15 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"PDS_UsrLotsRealtorsCommission_yak26ra": {
 						"modelConfig": {
 							"path": "PDS.UsrLotsRealtorsCommission"
+						},
+						"validators": {
+							"MaxValueValidator": {
+								"type": "usr.MaxValueValidator",
+								"params": {
+									"maxValue": 10000,
+									"message": "Commission can not be more than 10,000"
+								}
+							}
 						}
 					},
 					"GridDetail_y6dud8b": {
@@ -983,6 +1017,11 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 								]
 							}
 						}
+					},
+					"PDS_UsrLotsTypeUsrCommissionPercent_zuxu53p": {
+						"modelConfig": {
+							"path": "PDS.UsrLotsTypeUsrCommissionPercent_zuxu53p"
+						}
 					}
 				}
 			},
@@ -1023,7 +1062,13 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 					"PDS": {
 						"type": "crt.EntityDataSource",
 						"config": {
-							"entitySchemaName": "UsrLotsFreedomUI"
+							"entitySchemaName": "UsrLotsFreedomUI",
+							"attributes": {
+								"UsrLotsTypeUsrCommissionPercent_zuxu53p": {
+									"path": "UsrLotsType.UsrCommissionPercent",
+									"type": "ForwardReference"
+								}
+							}
 						},
 						"scope": "page"
 					},
@@ -1060,8 +1105,59 @@ define("UsrLotsFreedomUI_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function
 				}
 			}
 		]/**SCHEMA_MODEL_CONFIG_DIFF*/,
-		handlers: /**SCHEMA_HANDLERS*/[]/**SCHEMA_HANDLERS*/,
+		handlers: /**SCHEMA_HANDLERS*/[
+			{
+				request: "crt.HandleViewModelAttributeChangeRequest",
+				handler: async (request, next) => {
+					if (request.attributeName === 'PDS_UsrLotsCost_jy4lsb4' ||
+					request.attributeName === 'PDS_UsrLotsTypeUsrCommissionPercent_zuxu53p' ) {
+					var price = await request.$context.PDS_UsrLotsCost_jy4lsb4;
+					var percent = await request.$context.PDS_UsrLotsTypeUsrCommissionPercent_zuxu53p;
+					var commission = price * percent / 100;
+					const sysSettingsService = new sdk.SysSettingsService();
+					// const maxCommission = await sysSettingsService.getByCode('UsrMaxRealtorCommission');
+					// if (commission > maxCommission.value){
+					// 	commission = maxCommission.value;
+					// }
+					request.$context.PDS_UsrLotsRealtorsCommission_yak26ra = commission;
+					}
+				return next?.handle(request);
+				}
+			},
+			
+		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,
-		validators: /**SCHEMA_VALIDATORS*/{}/**SCHEMA_VALIDATORS*/
+		validators: /**SCHEMA_VALIDATORS*/{
+			"usr.MaxValueValidator": {
+				validator: function (config) {
+					return function (control) {
+						let value = control.value;
+						let maxValue = config.maxValue;
+						let valueIsCorrect = value <= maxValue;
+						var result;
+						if (valueIsCorrect) {
+							result = null;
+						} else {
+							// Повертаємо об'єкт з властивістю і підлеглим об'єктом
+							result = {
+								"usr.MaxValueValidator": {
+									message: config.message
+								}
+							};
+						}
+						return result;
+					};
+			},
+			params: [
+				{
+					name: "maxValue"
+				},
+				{
+					name: "message"
+				}
+			],
+			async: false
+		}
+		}/**SCHEMA_VALIDATORS*/
 	};
 });

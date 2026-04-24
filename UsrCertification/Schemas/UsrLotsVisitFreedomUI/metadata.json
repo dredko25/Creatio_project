@@ -116,7 +116,9 @@
   "A5": "ba7dd138-1fef-43ac-bbcd-0fbfec4e25f9",
   "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
   "S4": "d10accf2-f7bb-4b4b-9c74-dddb31e8f8f7",
+  "E2": 1,
   "E6": true,
+  "E20": true,
   "E17": "UsrLotsRealtyId",
   "E18": "UsrLotsRealtyUsrName"
 }

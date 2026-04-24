@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "d362a2c9-5986-4d2c-b1e8-0f452a6dbd79",
     "Name": "UsrLotsFreedomUI_FormPage",
-    "ModifiedOnUtc": "\/Date(1776438263000)\/",
+    "ModifiedOnUtc": "\/Date(1776957811000)\/",
     "Parent": {
       "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
       "Name": "PageWithTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Лоти (FreedomUI) form page",
-    "DependsOn": []
+    "Caption": "Лоти (FreedomUI) form page"
   }
 }

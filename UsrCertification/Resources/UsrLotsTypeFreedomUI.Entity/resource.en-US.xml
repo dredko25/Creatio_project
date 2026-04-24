@@ -3,7 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Тип лота (FreedomUI)" />
-			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+			<Item Name="Columns.UsrCommissionPercent.Caption" Value="Відсоток комісії від 0 до 100" />
 		</Items>
 	</Group>
 </Resources>

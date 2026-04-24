@@ -2,13 +2,12 @@
   "Descriptor": {
     "UId": "87035dbc-efa5-43ff-bde3-040ca963f8a3",
     "Name": "UsrClientsFreedomUI_FormPage",
-    "ModifiedOnUtc": "\/Date(1776414486000)\/",
+    "ModifiedOnUtc": "\/Date(1776517555000)\/",
     "Parent": {
       "UId": "3b2e117f-8c6b-4ca5-80a2-7ebb497cddf9",
       "Name": "PageWithTabsFreedomTemplate"
     },
     "ManagerName": "ClientUnitSchemaManager",
-    "Caption": "Клієнти (FreedomUI) form page",
-    "DependsOn": []
+    "Caption": "Клієнти (FreedomUI) form page"
   }
 }
